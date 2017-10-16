@@ -2,6 +2,10 @@ package com.inheritence.java;
 
 import java.util.Scanner;
 
+/**
+ * Customer class: Recieves arguments common to both commercial and residential
+ * customers.
+ */
 public class Customer  {
 
     String customer_name;
@@ -9,6 +13,13 @@ public class Customer  {
     String customer_address;
     Double square_feet;
 
+    /**
+     *
+     * @param customer_name Name of the customer.
+     * @param customer_phone Customer's phone number.
+     * @param customer_address Customer's address.
+     * @param square_feet Square foot specific to the customer's needs.
+     */
     public Customer(String customer_name, String customer_phone, String customer_address, Double square_feet) {
 
         this.customer_name = customer_name;
@@ -51,7 +62,10 @@ public class Customer  {
     }
 
 
-    // If there is a non specific customer, print that info.
+    /**
+     * display_standard_data: displays the data that is common to both types
+     * of customer.
+     */
     public void display_standard_data(){
 
         System.out.println("Customer Name: " + this.customer_name);
