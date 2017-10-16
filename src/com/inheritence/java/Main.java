@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class Main {
 
+    /**
+     * Main will send and retrieve all data regarding customers.
+     * @param args
+     */
     public static void main(String[] args) {
-        // String customer_name;
-        // String customer_phone;
-        // String customer_address;
-        // Double square_feet;
 
         Scanner input = new Scanner(System.in);
 
